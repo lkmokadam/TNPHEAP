@@ -1,0 +1,13 @@
+Transactional NP-Heap
+Overview
+In the previous project, we have built NPHeap, an in-memory kernel module that provides efficient data sharing among different processes. Although NPHeap provides some degree of parallel programming support -- through simple, traditional locking/unlocking mechanism in either a fine-grained or coarse-grained manner, depending on how you implemented it, the performance of such a lock-based mechanism can be limited once the degree of parallelism increases. 
+
+Objective of the project:
+
+* Learning more about parallel processes
+* Learning the concept of transactional memory
+* Learning how user-space library works together with kernel modules
+* Learning how to implement a handler
+* Learning how memory protection works
+
+
